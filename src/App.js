@@ -1,4 +1,4 @@
-import { use, useEffect, useState } from 'react';
+import {  useEffect, useState } from 'react';
 import './App.css';
 import PropTypes from "prop-types";
 // Images
@@ -13,7 +13,7 @@ import rainIcon from "./assets/humidity.png"
 const WeatherDetails=({icon,temp,city,country,lat,log,humidity,wind})=>{
      return (<>
         <div className="image">
-             <img src={icon} alt="Image" />
+             <img src={icon} alt="Weather icon" />
         </div>
         <div className="temp">{temp}°C</div>
         <div className="location">{city}</div>
