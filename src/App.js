@@ -129,7 +129,7 @@ function App() {
 
       search();
   
-  },[]);
+  },[search]);
   return (
      <>
        <div className='container'>
